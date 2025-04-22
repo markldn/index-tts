@@ -1,3 +1,15 @@
+Running on 2 macbooks to split the tasks for fast inference
+
+Parameters:
+Slave:
+export OUTPUT_PATH=<path where output files are stored. This needs to be the same on both>
+export PORT=8003
+python slave.py
+
+Master:
+export OUTPUT_PATH=<Same path as slave>
+export SLAVE_CONFIG='[{"url": "http://ip:8003"}]'
+export PORT=8002
 
 <div align="center">
 <img src='assets/index_icon.png' width="250"/>
