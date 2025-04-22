@@ -1,3 +1,16 @@
+<div align="center">
+<img src='assets/index_icon.png' width="250"/>
+
+</div>
+
+
+<h2><center>IndexTTS: An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System</h2>
+
+<p align="center">
+<a href='https://arxiv.org/abs/2502.05512'><img src='https://img.shields.io/badge/ArXiv-2502.05512-red'></a>
+
+============================
+
 Running on 2 macbooks to split the tasks for fast inference
 
 Parameters:
@@ -16,17 +29,7 @@ TTS Engine: http://ip:8002
 TTS voice: MP3 to be cloned, same has to exist on both. For example: voices/abc.mp3
 TTS model: indextts
 
-
-
-<div align="center">
-<img src='assets/index_icon.png' width="250"/>
-</div>
-
-
-<h2><center>IndexTTS: An Industrial-Level Controllable and Efficient Zero-Shot Text-To-Speech System</h2>
-
-<p align="center">
-<a href='https://arxiv.org/abs/2502.05512'><img src='https://img.shields.io/badge/ArXiv-2502.05512-red'></a>
+============================
 
 ## 👉🏻 IndexTTS 👈🏻
 
