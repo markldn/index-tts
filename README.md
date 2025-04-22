@@ -11,6 +11,13 @@ export OUTPUT_PATH=<Same path as slave>
 export SLAVE_CONFIG='[{"url": "http://ip:8003"}]'
 export PORT=8002
 
+API compatible for openwebui:
+TTS Engine: http://ip:8002
+TTS voice: MP3 to be cloned, same has to exist on both. For example: voices/abc.mp3
+TTS model: indextts
+
+
+
 <div align="center">
 <img src='assets/index_icon.png' width="250"/>
 </div>
