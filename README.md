@@ -14,19 +14,29 @@
 Running on 2 macbooks to split the tasks for fast inference
 
 Parameters:
+
 Slave:
-export OUTPUT_PATH=<path where output files are stored. This needs to be the same on both>
+
+export OUTPUT_PATH=path where output files are stored. This needs to be the same on both
+
 export PORT=8003
+
 python slave.py
 
 Master:
-export OUTPUT_PATH=<Same path as slave>
+
+export OUTPUT_PATH=Same path as slave
+
 export SLAVE_CONFIG='[{"url": "http://ip:8003"}]'
+
 export PORT=8002
 
 API compatible for openwebui:
+
 TTS Engine: http://ip:8002
+
 TTS voice: MP3 to be cloned, same has to exist on both. For example: voices/abc.mp3
+
 TTS model: indextts
 
 ============================
